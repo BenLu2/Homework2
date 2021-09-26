@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffff;    
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Add the hover design here so when hover over the llama imagine (suppose be projects), that image would be larger than the others */
+.Work img:hover
+{
+    border-radius: 25px;
+    max-height: 350px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Header format */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
+    color: #000000;
+
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+/* navigation format */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.BackgoundIMG {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main Content format */
+.mainContent{
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    overflow: scroll;
+}
+
+
+.About-Me,
+.Contact, 
+.Resume
+ {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color:black;
+}
+
+.Work
+{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color:black;
+}
+
+
+.About-Me img,
+.Contact img,
+.Resume img {
+    max-height: 200px;
+}
+
+/* Add round border design for the work image */
+.Work img
+{
+    border-radius: 25px;
+    max-height: 300px;
+}
+
+.About-Me h2,
+.Work h2,
+.Contact h2,
+.Resume h2
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-work {
+    float:left;
+    margin-left: 70px;
+}
+
+/* Add a green button design for the resume */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
