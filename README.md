@@ -48,3 +48,6 @@ I will keep looking for alternative solution to make that happen
 Or learn more about how to use bootstrap more effectivly
 
 ```
+<p>
+    <img src="relativePath/Demo3.png" width="220" height="240" />
+</p>
