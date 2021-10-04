@@ -49,5 +49,5 @@ Or learn more about how to use bootstrap more effectivly
 
 ```
 <p>
-    <img src="Demo3.png" width="220" height="240" />
+    <img src="Demo3.PNG" width="220" height="240" />
 </p>
