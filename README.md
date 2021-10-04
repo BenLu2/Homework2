@@ -47,7 +47,11 @@ One thing I have not figured out is how to adjust the padding and background to 
 I will keep looking for alternative solution to make that happen
 Or learn more about how to use bootstrap more effectivly
 
+
 ```
+
+## Here is the screenshot: 
+
 <p>
     <img src="Demo3.PNG" width="220" height="240" />
 </p>
