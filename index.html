@@ -1,90 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Add bootstrap libary for the responsive vewport  -->
-    <link rel="stylesheet" href="./Assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./Assets/css/style.css">
-
-    <title>YudongLu Portfolio</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<!-- header -->
 <body>
-    <!-- Use the bootstrap example design -->
-    <div class="jumbotron text-center">
-        <h1>Yudong Lu Portfolio Page</h1>
-  
-        <nav>
 
-            <ul>
-                <li>
-                  <h3> <a href="#About-Me">About Me</a></h3> 
-                </li>
-                <li>
-                    <h3><a href="#Work">Work</a></h3> 
-                </li>
-                <li>
-                    <h3><a href="#Contact">Contact Me</a></h3> 
-                </li>
-                <li>
-                    <h3><a href="#Resume">Resume</a></h3> 
-                </li>
-            </ul>
-
-        </nav>
-    </div>
-
-    <div class="BackgoundIMG"></div>
-    <!-- Main Content -->
-    <div class="mainContent">
-        <div id="About-Me" class="About-Me">
-            <img src="./Assets/images/About-Me.JPG" class="float-left" />
-            <h2>About Me</h2>
-            <p>
-                Motivated and highly responsible team player, capable of multitasking and managing a busy schedule. Experienced in FPGA, VLSI, and PCB design. Able to speak and write Chinese, English fluently. Bachelor's Degree in Electrical Engineering and second degree in German professions.
-            </p>
-        </div>
-        <div id="Work" class="Work">
-            
-            <h2>Work</h2>
-            <p>
-                With experiences in PCB design, we have build a relay control for the calibrating system.
-            </p>
-           <!-- No projects yet so using picture of llama for replacement -->
-           <!-- Use float-work class here so the image will aligned -->
-            <img src="./Assets/images/work.jpeg" class="float-work" />
-            <img src="./Assets/images/work.jpeg" class="float-work" />
-            <img src="./Assets/images/work.jpeg" class="float-work" />
-         
-        </div>
-
-        <div id="Contact" class="Contact">
-            <img src="./Assets/images/Contact-Me.png" class="float-left" />
-            <h2>Contact Me</h2>
-            <p>
-                You can contact me through the following method: <br>
-                Email: xxx@gmail.com <br>
-                Phone: xxx-xxx-xxxx
-            </p>
-        </div>
-        <div id="Resume" class="Resume">
-            <img src="./Assets/images/Resume.jpeg" class="float-left" />
-            <h2>Resume</h2>
-            <!-- Use the green button design here for the link -->
-            <a href="https://www.linkedin.com/in/yudong-lu/" class="button">See my Resume!</a>
-
-        </div>
-    </div>
-</body>
-<div class="footer">
-    <h2>Made by Yudong Lu</h2>
-    <p>
-        &copy; 2021 UW Bootcamp.
-    </p>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Yudong Lu Project Portfolio</h1>
+  <p>UW bootcamp 2021</p> 
 </div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Me</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div class="profileimg">Profile Image</div>
+      <p>Knowledgeable IT customer support engineer with three years of experience assisting top 500 enterprise customers, providing cloud configuration, dedicated solution support, performance optimization, and in-depth troubleshooting. 
+        Possesses a proven track record of maintaining loyal and satisfied customers. Focused on exceeding customer expectations and driving company success.
+        Experienced with cloud platforms such as AWS and Google Cloud, and other monitoring platforms include Catchpoint and Cedexis.   </p>
+      <h3>Links</h3>
+      <p>Check out my Github, LinkedIn and Resume!</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>Projects</h2>
+      <h5>NBA player facts, API group project</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+
+</body>
 </html>
